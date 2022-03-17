@@ -1,0 +1,7 @@
+def areaOfCircle(radius):
+	pi=3.14
+	return pi*radius*radius
+
+r=float(input("Enter the radius of circle: "))
+area=areaOfCircle(r)
+print("The area of the circle is", area)

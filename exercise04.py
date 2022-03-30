@@ -41,6 +41,7 @@ print("The result of program2() is:", result)
 
 #there is a alternative of program2()
 def program3(n,time):
+    #when time less than one (even though if it is zero) program should return error
     if(time < 1):
         return "Error"
     sum=0

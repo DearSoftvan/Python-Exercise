@@ -3,8 +3,7 @@
 #the program2() that accepts an integer (n) and computes the value of n+nn+nnn
 #for instance if n=5 & time=3 > 555
 def program(n,time):
-    if(time == 0):
-        return n
+    #when time less than one (even though if it is zero) program should return error
     if(time < 1):
         return "Error"
     carrier=n

@@ -41,7 +41,7 @@ print("The result of program2() is:", result)
 
 #there is a alternative of program2()
 def program3(n,time):
-    if(time < 0):
+    if(time < 1):
         return "Error"
     sum=0
     for i in range(1,time+1): 

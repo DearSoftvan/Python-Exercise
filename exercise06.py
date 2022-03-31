@@ -2,9 +2,12 @@
 #Write a Python program to filter the positive numbers from a list.
 
 def filter(list):
+    result= []
+    index=0
     for i in list:
         if(int(list[i]) > 0):
-            return 155
+            result[index]=list[i]
+            index++
     return list
 
 my_list = [1, 7 , 3.4]

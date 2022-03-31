@@ -3,12 +3,12 @@
 
 def filter(list):
     result= []
-    index=0
+    #index=0
     for i in list:
         if(int(list[i]) > 0):
-            result[index]=list[i]
-            index++
-    return list
+            result.append(list[i])
+            #index=index+1
+    return result
 
 my_list = [1, 7 , 3.4]
 filter(my_list)

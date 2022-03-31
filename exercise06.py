@@ -13,4 +13,4 @@ def filter(list):
 
 my_list = [1, 7 , 3.4, -3, 5, -12, 0]
 final=filter(my_list)
-print(final)
+print(final) 

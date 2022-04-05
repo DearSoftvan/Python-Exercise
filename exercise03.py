@@ -5,6 +5,7 @@ def areaOfCircle(radius):
 	return pi*radius*radius
 	#we use radius**2 for the two to the power of radius.
 
+#Test the function
 r=float(input("Enter the radius of circle: "))
 area=areaOfCircle(r)
 print("The area of the circle is", area)

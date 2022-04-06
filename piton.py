@@ -24,7 +24,7 @@ def frameStr(s, t):
 	print(front + " " + s + " " + end)
 	
 
-#Test
+#Test the function
 text='Aslan Parçası'
 frameStr('A',0)
 frameStr(text,5)

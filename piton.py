@@ -24,7 +24,7 @@ def frameStr(s, t):
 	print(front + " " + s + " " + end)
 	
 
-#test
+#Test
 text='Aslan Parçası'
 frameStr('A',0)
 frameStr(text,5)

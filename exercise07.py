@@ -1,3 +1,4 @@
+#this is an exercise for try to use; try... except... 
 def test_func(a,b,c):
     try:
         sum=a+b

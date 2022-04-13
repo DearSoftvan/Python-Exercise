@@ -21,3 +21,6 @@ print(test)
 
 test=test_func('a',5,7)
 print(test)
+
+test=test_func(3,5,'a')
+print(test)

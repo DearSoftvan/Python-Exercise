@@ -19,6 +19,7 @@ print(test)
 test=test_func(3,5,0)
 print(test)
 
+#testing for type error
 test=test_func('a',5,7)
 print(test)
 

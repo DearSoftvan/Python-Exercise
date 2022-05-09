@@ -26,4 +26,4 @@ print(test)
 #there is a little problem. when we send a character for variable c to function. it returns zero division error
 test=test_func(3,5,'a')
 print(test) 
- 
+

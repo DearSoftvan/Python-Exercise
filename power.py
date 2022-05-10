@@ -7,4 +7,4 @@ def power(a, n):
     return result
 
 result=power(5, 2)
-print(result) 
+print(result)

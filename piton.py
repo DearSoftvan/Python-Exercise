@@ -28,4 +28,4 @@ def frameStr(s, t):
 text='Aslan Parçası'
 frameStr('A',0)
 frameStr(text,5)
-
+ 
